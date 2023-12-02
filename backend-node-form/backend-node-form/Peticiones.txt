@@ -1,0 +1,38 @@
+Obtener los documentos:
+    localhost:3001/document/get
+
+Descargar un documento:
+    localhost:3001/document/:id
+
+Crear un documento:
+    localhost:3001/document/add
+
+    data:
+
+    {
+        "asignatura": "Matemáticas",
+        "carrera": "Ingeniería",
+        "codigo": "MAT101",
+        "creditos": 4,
+        "semestre": 2,
+        "docente": "Profesor Ejemplo",
+        "competencia": "Resolver problemas matemáticos avanzados",
+        "unidades": [
+            {
+            "fecha": "2023-11-17",
+            "contenido": "Álgebra lineal",
+            "horasTeoricas": 2,
+            "horasPracticas": 3,
+            "horasIndividuales": 1,
+            "observaciones": "Ejercicios prácticos al final de la clase"
+            },
+            {
+            "fecha": "2023-11-20",
+            "contenido": "Cálculo integral",
+            "horasTeoricas": 3,
+            "horasPracticas": 2,
+            "horasIndividuales": 2,
+            "observaciones": "Revisión de tareas"
+            }
+        ]
+    }
